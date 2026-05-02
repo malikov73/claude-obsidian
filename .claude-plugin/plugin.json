@@ -1,0 +1,10 @@
+{
+  "name": "claude-obsidian",
+  "description": "Conventions, MCP-tools cheatsheet, and brainstorming patterns for working with Obsidian vaults across Claude Code and Codex.",
+  "version": "0.1.0",
+  "author": { "name": "asman" },
+  "homepage": "https://github.com/<your-github-user>/claude-obsidian",
+  "repository": "https://github.com/<your-github-user>/claude-obsidian",
+  "license": "MIT",
+  "keywords": ["obsidian", "pkm", "brainstorming", "knowledge-management", "skills"]
+}

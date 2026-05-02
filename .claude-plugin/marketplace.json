@@ -1,0 +1,14 @@
+{
+  "name": "claude-obsidian-marketplace",
+  "description": "claude-obsidian plugin marketplace",
+  "owner": { "name": "asman" },
+  "plugins": [
+    {
+      "name": "claude-obsidian",
+      "description": "Obsidian conventions + brainstorming patterns",
+      "version": "0.1.0",
+      "source": "./",
+      "author": { "name": "asman" }
+    }
+  ]
+}
