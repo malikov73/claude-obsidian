@@ -73,7 +73,7 @@ Fields below extend the minimum set. Include only what applies to the type.
 ```yaml
 type: adr
 id: ADR-NNNN
-status: proposed       # proposed | accepted | deprecated | superseded-by
+status: proposed       # proposed | accepted | deprecated | superseded
 date: 2026-05-02
 deciders: [self]
 supersedes:
@@ -152,10 +152,10 @@ Transclude (`![[...]]`) sparingly — it creates tight coupling between notes. P
 Use hierarchical tags for status lifecycles, type taxonomies, and project membership. The slash creates a parent-child relationship in Obsidian's tag pane.
 
 Examples:
-- `type/note`, `type/adr`, `type/research`
+- `type/note`, `type/adr` (and the other 7 types from §Note types: `type/daily`, `type/moc`, `type/project`, `type/source`, `type/research`, `type/idea`, `type/log`). The `type/<value>` tag mirrors the frontmatter `type:` field and follows the same closed enum.
 - `status/active`, `status/done`, `status/superseded`
 - `project/wedding-speech`, `project/brainstorm`
-- `cross-cutting/multi-language`, `cross-cutting/pricing`
+- `cross-cutting/multi-language`, `cross-cutting/pricing` (brainstorm-specific; see `obsidian-brainstorm` skill)
 
 Refactor tags across the vault using the Tag Wrangler community plugin — do not manually find-and-replace tag strings, as that introduces inconsistencies.
 
@@ -253,6 +253,8 @@ Always make the cross-reference explicit. If you create a new note because an ex
 ---
 
 ## Templates
+
+These paths are relative to the **plugin install root** (e.g., `~/.claude/plugins/cache/<marketplace>/claude-obsidian/<version>/` in Claude Code, or `~/.codex/claude-obsidian/` in Codex). The `/obsidian-init` command (Claude Code) or manual copy (Codex) places these into your target vault.
 
 Templates are in two locations in this repository:
 
