@@ -21,8 +21,8 @@ Vault skeleton + per-type note templates (daily, project, source, ADR, note, res
 
 ### Claude Code
 ```bash
-/plugin marketplace add <your-github-user>/claude-obsidian
-/plugin install claude-obsidian@<your-github-user>
+/plugin marketplace add malikov73/claude-obsidian
+/plugin install claude-obsidian@malikov73
 ```
 
 ### Codex

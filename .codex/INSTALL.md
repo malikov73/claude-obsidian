@@ -11,7 +11,7 @@ Enable claude-obsidian skills in Codex via native skill discovery — clone and 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/<your-github-user>/claude-obsidian.git ~/.codex/claude-obsidian
+   git clone https://github.com/malikov73/claude-obsidian.git ~/.codex/claude-obsidian
    ```
 
 2. **Create the skills symlink:**
