@@ -41,6 +41,7 @@ You should see a symlink (or junction on Windows) pointing to your claude-obsidi
 - `obsidian-conventions` — vault organization, file naming, frontmatter, linking, atomicity rules
 - `obsidian-mcp-tools` — cheatsheet for `mcp__obsidian__*` tools
 - `obsidian-brainstorm` — idea portfolios, decision logs, research notes (extends conventions)
+- `obsidian-diagrams` — Mermaid vs JSON Canvas vs Excalidraw decision matrix, vanilla-only templates (extends conventions)
 
 Commands (`/obsidian-init`, `/obsidian-decision`, `/obsidian-research`) are Claude Code-only — Codex agents perform the equivalent flow by following the skill instructions.
 
