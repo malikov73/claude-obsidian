@@ -8,6 +8,7 @@ A cross-platform plugin for **Claude Code** and **Codex** that teaches AI agents
 - **`obsidian-conventions`** — vault shape, file naming, frontmatter, linking, atomicity, append-vs-rewrite, search-before-create
 - **`obsidian-mcp-tools`** — cheatsheet for `mcp__obsidian__*` MCP tools, common patterns, gotchas
 - **`obsidian-brainstorm`** — idea portfolio structure, MADR decision logs, research notes (extends conventions)
+- **`obsidian-diagrams`** — when to use Mermaid vs JSON Canvas vs Excalidraw, vanilla-only templates and patterns (extends conventions)
 
 ### Commands (Claude Code only)
 - **`/obsidian-init`** — bootstrap a new vault with the conventions baked in
@@ -39,7 +40,7 @@ You need the **Obsidian MCP server** configured in your agent. The plugin's tool
 claude-obsidian/
 ├── .claude-plugin/         # CC plugin + marketplace manifests
 ├── .codex/                 # Codex install instructions
-├── skills/                 # the 3 skills (cross-platform)
+├── skills/                 # the 4 skills (cross-platform)
 ├── commands/               # 3 CC commands (sugar over skills)
 ├── templates/              # vault skeleton + per-type templates
 └── docs/                   # design + plan documents
